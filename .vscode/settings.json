@@ -1,0 +1,18 @@
+{
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"python.formatting.provider": "none",
+	"cSpell.words": [
+		"cadastrado",
+		"carga",
+		"criador",
+		"descricao",
+		"fundo",
+		"horaria",
+		"inicio",
+		"secundaria",
+		"sucesso",
+		"termino"
+	]
+}
