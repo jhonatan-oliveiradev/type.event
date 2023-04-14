@@ -10,7 +10,7 @@
         <br>
         <div class="row">
             <div class="col-md">
-                <form action="" method="titulo">
+                <form action="{% url 'gerenciar_evento' %}" method="GET">
                 <label>Título:</label>
                 <input type="text" placeholder="Título..." class="form-control" name="nome">
             </div>
@@ -39,7 +39,7 @@
                 <td>{{evento.descricao}}</td>
                 <td>{{evento.data_inicio}}</td>
                 <td>{{evento.data_termino}}</td>
-                <td>Link</td>
+                <td>http://127.0.0.1:8000/eventos/inscrever_evento/{{evento.id}}</td>
             </tr>
         {% endfor %}
                 

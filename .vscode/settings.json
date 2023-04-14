@@ -8,11 +8,19 @@
 		"carga",
 		"criador",
 		"descricao",
+		"eventos",
 		"fundo",
 		"horaria",
 		"inicio",
+		"inscrever",
+		"Inscrição",
+		"participante",
+		"participantes",
+		"realizada",
 		"secundaria",
 		"sucesso",
-		"termino"
+		"termino",
+		"usuário",
+		"Validar"
 	]
 }
