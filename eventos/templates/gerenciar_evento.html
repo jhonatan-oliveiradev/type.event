@@ -34,7 +34,7 @@
             
         {% for evento in eventos %}
             <tr class="{% cycle 'linha' 'linha2' %}">
-                <td width="10%"><a href="#"><img width="100%" src="/media/{{evento.logo}}"></a></td>
+                <td width="10%"><a href="{% url 'participantes_evento' evento.id %}"><img width="100%" src="/media/{{evento.logo}}"></a></td>
                 <td>{{evento.nome}}</td>
                 <td>{{evento.descricao}}</td>
                 <td>{{evento.data_inicio}}</td>
